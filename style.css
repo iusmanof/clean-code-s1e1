@@ -24,7 +24,7 @@ body {
 .aaa { text-align: center;
 }
 }
-.centered-main-page-element {
+.centered-main-page__element {
   display: block;
   width: 500px;
   margin: 0 auto 0;
@@ -34,7 +34,7 @@ body {
   display: inline-block;
   flex-grow: 1
 }
-.task-row-wrapper {
+.task-row__wrapper {
   display: flex;
 }
 ul {
@@ -175,7 +175,7 @@ ul li.editMode label {
 .aaa { text-align: center;
 }
 }
-.centered-main-page-element {
+.centered-main-page__element {
   display: block;
   width: 500px;
   margin: 0 auto 0;
@@ -185,7 +185,7 @@ ul li.editMode label {
   display: inline-block;
   flex-grow: 1
 }
-.task-row-wrapper {
+.task-row__wrapper {
   display: flex;
 }
 ul {
