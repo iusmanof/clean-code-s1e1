@@ -23,7 +23,7 @@ body {
 .header { text-align: center;
 }
 }
-.centered-main-page__element {
+.main__element {
   display: block;
   width: 500px;
   margin: 0 auto 0;
@@ -33,7 +33,7 @@ body {
   display: inline-block;
   flex-grow: 1
 }
-.task-row__wrapper {
+.task__wrapper {
   display: flex;
 }
 ul {
