@@ -14,21 +14,14 @@ body {
   text-align: right;
 }
 
-.header img {
+.header__img {
   width: 100%;
 }
 
-.header .more-info {
+.header__more-info {
   font-family: fantasy, cursive;
 }
-
-@media (max-width: 768px) {
   
-.header { 
-  text-align: center;
-}
-  
-}
 .main__wrapper {
   display: block;
   width: 500px;
@@ -60,6 +53,11 @@ button{
   outline: none;
 }
 
+.add__btn,
+.todo__btn-edit,
+.todo__btn-del,
+.completed__btn-edit,
+.completed__btn-del,
 button {
   background: none;
   border: 0px;
@@ -194,4 +192,12 @@ ul .todo__edit-mode label {
 
 .header .more-info {
   font-family: fantasy, cursive;
+}
+
+@media (max-width: 768px) {
+  
+.header { 
+  text-align: center;
+}
+
 }
