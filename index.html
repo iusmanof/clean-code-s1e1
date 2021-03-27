@@ -29,18 +29,18 @@
     <!-- /header -->
 
     <!-- main -->
-    <main class="main__element">
-      <article>
+    <main class="main">
+      <article class="main__wrapper">
+        <article id="add">
+            <label class="add__label" for="add__new-task">Add Item</label>
+            <section class="add__wrapper">
+              <input id="add__new-task" class="task" type="text" />
+              <button class="add__btn">Add</button>
+            </section>
+        </article>
         <section>
-          <div id="main__element-add">
-            <label for="new-task">Add Item</label>
-            <div class="task__wrapper">
-              <input id="new-task" class="task" type="text" />
-              <button>Add</button>
-            </div>
-          </div>
-        </section>
-        <section>
+          
+        <section class="todo">
           <h3>Todo</h3>
           <ul id="incomplete__tasks">
             <li>
@@ -63,7 +63,8 @@
             </li>
           </ul>
         </section>
-        <section>
+
+        <section class="completed">
           <h3>Completed</h3>
           <ul id="completed__tasks">
             <li>
