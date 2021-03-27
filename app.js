@@ -9,12 +9,13 @@
 
 let taskInput = document.getElementById("add__new-task"); //Add a new task.
 let addButton = document.getElementsByTagName("button")[0]; //first button
-let incompleteTaskHolder = document.getElementById("incomplete__tasks"); //ul of #incompleteTasks
+let incompleteTaskHolder = document.getElementById("todo__list"); //ul of #incompleteTasks
 let completedTasksHolder = document.getElementById("completed__tasks"); //completed-tasks
 
 //New task list item
 let createNewTaskElement = function (taskString) {
   let listItem = document.createElement("li");
+  listItem.classList.add("item");
 
   //input (checkbox)
   let checkBox = document.createElement("input"); //checkbx
@@ -77,7 +78,7 @@ let editTask = function () {
   let editInput = listItem.querySelector("input[type=text]");
   let label = listItem.querySelector("label");
   let editBtn = listItem.querySelector(".edit");
-  let containsClass = listItem.classList.contains("edit__mode");
+  let containsClass = listItem.classList.contains("todo__edit-mode");
   //If class of the parent is .editmode
   if (containsClass) {
     //switch to .editmode
@@ -90,7 +91,7 @@ let editTask = function () {
   }
 
   //toggle .editmode on the parent.
-  listItem.classList.toggle("edit__mode");
+  listItem.classList.toggle("todo__edit-mode");
 };
 
 //Delete task.
