@@ -1,5 +1,3 @@
-![image](https://iusmanof.github.io/clean-code-s1e1/)
-
 [link to my clean code!](https://iusmanof.github.io/clean-code-s1e1/)
 
 # Функционал приложения :
